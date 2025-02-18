@@ -1,0 +1,199 @@
+body{
+    background-color: black;
+    margin: 0%;
+    padding: 0%;
+    background-image: url(tumblr_a52c9731bfb38a50074f68af25780351_95505f84_400.gif);
+    background-size:cover; 
+}
+
+body a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.hometext{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    align-items: center;
+    font-size: 50px;
+}
+
+#interesttext{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    align-items: center;
+    font-size: 50px;
+}
+
+.info{
+    background-color: #575252;
+    display: flex;
+    flex-direction: reverse;
+    justify-content: center;
+    height: 50px;
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+}
+
+#telefon{
+    color: white;
+    margin: auto;   
+}
+
+#gmail{
+    color: white;
+    margin: auto;
+
+}
+
+
+.educationpic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+.imageresolution{
+    width: 250px;
+    height: 150px;
+    border-radius: 20px;
+}
+
+.images{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#edimage{
+    border-radius: 80px;
+    width: 300px;
+    height: 250px;
+    
+
+}
+
+.imagetext{
+    text-align: center;
+}
+
+.aboutdiv {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.images {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.images div {
+    margin: 10px;
+    text-align: center;
+}
+
+.imagetext {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+#github{
+    color: white;
+    margin: auto;
+    background-color: white;
+    border-radius: 50px;
+    width: 150px;
+    height: 25px;
+    text-align: center;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+}
+
+#github:hover{
+    background-color: grey;
+}
+
+.menu{
+    background-color: #575252;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'courier new';
+    width: 100%;
+    height: 120px;
+    justify-content: space-evenly;
+}
+
+#box1{
+    background-color: white;
+    width: 200px;
+    border-radius: 50px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+}
+
+#box1:hover{
+    background-color: grey;
+}
+
+#box2{
+    background-color: white;
+    width: 200px;
+    border-radius: 50px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#box2:hover{
+    background-color: grey;
+}
+
+#box3{
+    background-color: white;
+    width: 200px;
+    border-radius: 50px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#box3:hover{
+    background-color: grey;
+}
+
+#box4{
+    background-color: white;
+    width: 200px;
+    border-radius: 50px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#box4:hover{
+    background-color: grey;
+}   
